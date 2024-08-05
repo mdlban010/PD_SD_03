@@ -4,7 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "PD_SD_03_7e7ef72a"
+        },
         {
             "name": "Java",
             "type": "java",
@@ -44,8 +50,7 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "PD_SD_03_932772a8",
-            "vmArgs": "--module-path \"C:/Drivers/javafx-sdk-22.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
-            
+            "vmArgs": "--module-path \"C:/javafx-sdk-22.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
